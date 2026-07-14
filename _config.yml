@@ -1,0 +1,27 @@
+title: The AI-Agnostic Principle
+description: A principle for separating software from the artificial intelligence used to create it.
+baseurl: "/AI-Agnostic"
+url: "https://mshafiey.github.io"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - LICENSE
+  - README.md
+  - node_modules
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
