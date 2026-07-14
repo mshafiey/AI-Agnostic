@@ -3,6 +3,8 @@ layout: default
 title: Adoption Guide
 ---
 
+[← Back to Home](index.md)
+
 # Adopting the AI-Agnostic Principle
 
 ## Quick Start
@@ -125,7 +127,10 @@ find . -name "claude.md" -o -name ".cursorrules" -o -name "copilot-instructions.
 
 ## Related Documentation
 
+- [Home](index.md) - Project overview
 - [Principle](PRINCIPLE.md) - Core definition and separation guidelines
 - [Why](WHY.md) - Reasoning and benefits
 - [Manifesto](MANIFESTO.md) - Philosophical foundation
 - [FAQ](FAQ.md) - Common questions and answers
+
+**GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)

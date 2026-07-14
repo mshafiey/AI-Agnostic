@@ -3,6 +3,8 @@ layout: default
 title: The Principle
 ---
 
+[← Back to Home](index.md)
+
 # The AI-Agnostic Principle
 
 ## Core Definition
@@ -80,7 +82,10 @@ For more examples and clarification, see the [FAQ](FAQ.md).
 
 ## Related Documentation
 
+- [Home](index.md) - Project overview
 - [Why](WHY.md) - The reasoning behind this principle
 - [Manifesto](MANIFESTO.md) - Philosophical foundation
 - [FAQ](FAQ.md) - Common questions and answers
 - [Adoption](ADOPTION.md) - Implementation guide
+
+**GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)

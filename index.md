@@ -7,6 +7,10 @@ title: Home
   <h1>The AI-Agnostic Principle</h1>
   <p class="hero-subtitle">A principle for separating software from the artificial intelligence used to create it.</p>
   <p class="hero-quote">"The brain that creates software should not be permanently attached to the software it creates."</p>
+  <div class="project-links">
+    <a href="https://github.com/mshafiey/AI-Agnostic" class="project-link">GitHub Repository</a>
+    <a href="https://mshafiey.github.io/AI-Agnostic/" class="project-link">Documentation</a>
+  </div>
 </div>
 
 <div class="overview">

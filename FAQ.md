@@ -3,6 +3,8 @@ layout: default
 title: Frequently Asked Questions
 ---
 
+[← Back to Home](index.md)
+
 # Frequently Asked Questions
 
 ## Is this anti-AI?
@@ -84,7 +86,10 @@ See the [Adoption Guide](ADOPTION.md) for a complete migration checklist.
 
 ## Related Documentation
 
+- [Home](index.md) - Project overview
 - [Principle](PRINCIPLE.md) - Core definition and separation guidelines
 - [Why](WHY.md) - Reasoning and benefits
 - [Manifesto](MANIFESTO.md) - Philosophical foundation
 - [Adoption](ADOPTION.md) - Implementation guide
+
+**GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)

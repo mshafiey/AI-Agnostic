@@ -3,6 +3,8 @@ layout: default
 title: The Manifesto
 ---
 
+[← Back to Home](index.md)
+
 # The AI-Agnostic Principle Manifesto
 
 Software has always separated products from tools.
@@ -37,7 +39,10 @@ The future of software development belongs to teams where humans and AI collabor
 
 ## Related Documentation
 
+- [Home](index.md) - Project overview
 - [Principle](PRINCIPLE.md) - Core definition and separation guidelines
 - [Why](WHY.md) - Reasoning and benefits
 - [FAQ](FAQ.md) - Common questions and answers
 - [Adoption](ADOPTION.md) - Implementation guide
+
+**GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)
