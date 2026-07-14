@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
 <div class="hero">
@@ -9,7 +10,7 @@ title: Home
   <p class="hero-quote">"The brain that creates software should not be permanently attached to the software it creates."</p>
   <div class="project-links">
     <a href="https://github.com/mshafiey/AI-Agnostic" class="project-link">GitHub Repository</a>
-    <a href="https://mshafiey.github.io/AI-Agnostic/" class="project-link">Documentation</a>
+    <a href="{{ site.baseurl }}/" class="project-link">Documentation</a>
   </div>
 </div>
 
@@ -68,27 +69,27 @@ title: Home
 <div class="documentation">
   <h2>Documentation</h2>
   <div class="doc-grid">
-    <a href="principle" class="doc-card">
+    <a href="{{ site.baseurl }}/principle/" class="doc-card">
       <h3>Principle</h3>
       <p>Core definition and separation guidelines</p>
     </a>
     
-    <a href="why" class="doc-card">
+    <a href="{{ site.baseurl }}/why/" class="doc-card">
       <h3>Why</h3>
       <p>Reasoning and benefits of the principle</p>
     </a>
     
-    <a href="manifesto" class="doc-card">
+    <a href="{{ site.baseurl }}/manifesto/" class="doc-card">
       <h3>Manifesto</h3>
       <p>Philosophical foundation</p>
     </a>
     
-    <a href="faq" class="doc-card">
+    <a href="{{ site.baseurl }}/faq/" class="doc-card">
       <h3>FAQ</h3>
       <p>Common questions and answers</p>
     </a>
     
-    <a href="adoption" class="doc-card">
+    <a href="{{ site.baseurl }}/adoption/" class="doc-card">
       <h3>Adoption</h3>
       <p>Implementation guide</p>
     </a>
@@ -98,7 +99,7 @@ title: Home
 <div class="cta">
   <h2>Get Started</h2>
   <p>Ready to adopt the AI-Agnostic Principle in your projects?</p>
-  <a href="adoption" class="cta-button">Read the Adoption Guide</a>
+  <a href="{{ site.baseurl }}/adoption/" class="cta-button">Read the Adoption Guide</a>
 </div>
 
 <div class="github">

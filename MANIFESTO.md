@@ -1,9 +1,10 @@
 ---
 layout: default
 title: The Manifesto
+permalink: /manifesto/
 ---
 
-[← Back to Home](.)
+[← Back to Home]({{ site.baseurl }}/)
 
 # The AI-Agnostic Principle Manifesto
 
@@ -39,10 +40,10 @@ The future of software development belongs to teams where humans and AI collabor
 
 ## Related Documentation
 
-- [Home](.) - Project overview
-- [Principle](principle) - Core definition and separation guidelines
-- [Why](why) - Reasoning and benefits
-- [FAQ](faq) - Common questions and answers
-- [Adoption](adoption) - Implementation guide
+- [Home]({{ site.baseurl }}/) - Project overview
+- [Principle]({{ site.baseurl }}/principle/) - Core definition and separation guidelines
+- [Why]({{ site.baseurl }}/why/) - Reasoning and benefits
+- [FAQ]({{ site.baseurl }}/faq/) - Common questions and answers
+- [Adoption]({{ site.baseurl }}/adoption/) - Implementation guide
 
 **GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)

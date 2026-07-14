@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Frequently Asked Questions
+permalink: /faq/
 ---
 
-[← Back to Home](.)
+[← Back to Home]({{ site.baseurl }}/)
 
 # Frequently Asked Questions
 
@@ -13,7 +14,7 @@ title: Frequently Asked Questions
 
 This principle encourages AI usage. It only separates AI tools from software.
 
-For more context, see [Why This Principle Exists](why).
+For more context, see [Why This Principle Exists]({{ site.baseurl }}/why/).
 
 ---
 
@@ -25,7 +26,7 @@ If AI configuration affects the final product, keep it in the repository.
 
 If it only helps developers write code, keep it outside.
 
-See the [Principle](principle) for complete separation guidelines.
+See the [Principle]({{ site.baseurl }}/principle/) for complete separation guidelines.
 
 ---
 
@@ -43,7 +44,7 @@ The repository should not require one AI personality.
 
 Documentation describes the software. AI instructions describe how one person wants an AI to work.
 
-See the [Principle](principle) for what belongs where.
+See the [Principle]({{ site.baseurl }}/principle/) for what belongs where.
 
 ---
 
@@ -53,7 +54,7 @@ If a prompt becomes part of the product (like a chatbot system prompt), it belon
 
 If it's a development workflow prompt, it belongs outside.
 
-See the [Adoption Guide](adoption) for more patterns.
+See the [Adoption Guide]({{ site.baseurl }}/adoption/) for more patterns.
 
 ---
 
@@ -80,16 +81,16 @@ If it helps you write code but isn't part of the product, keep it outside.
 3. Keep product-related AI config in the repository
 4. Update `.gitignore` as needed
 
-See the [Adoption Guide](adoption) for a complete migration checklist.
+See the [Adoption Guide]({{ site.baseurl }}/adoption/) for a complete migration checklist.
 
 ---
 
 ## Related Documentation
 
-- [Home](.) - Project overview
-- [Principle](principle) - Core definition and separation guidelines
-- [Why](why) - Reasoning and benefits
-- [Manifesto](manifesto) - Philosophical foundation
-- [Adoption](adoption) - Implementation guide
+- [Home]({{ site.baseurl }}/) - Project overview
+- [Principle]({{ site.baseurl }}/principle/) - Core definition and separation guidelines
+- [Why]({{ site.baseurl }}/why/) - Reasoning and benefits
+- [Manifesto]({{ site.baseurl }}/manifesto/) - Philosophical foundation
+- [Adoption]({{ site.baseurl }}/adoption/) - Implementation guide
 
 **GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)

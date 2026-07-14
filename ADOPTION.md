@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Adoption Guide
+permalink: /adoption/
 ---
 
-[← Back to Home](.)
+[← Back to Home]({{ site.baseurl }}/)
 
 # Adopting the AI-Agnostic Principle
 
@@ -24,7 +25,7 @@ title: Adoption Guide
 4. Update `.gitignore`
 5. Document the transition
 
-For the complete principle, see [Principle](principle).
+For the complete principle, see [Principle]({{ site.baseurl }}/principle/).
 
 ---
 
@@ -53,7 +54,7 @@ For the complete principle, see [Principle](principle).
 | Personal prompts | Developer environment | Personal workflow |
 | Product AI features | Repository | Defines product |
 
-For more examples, see the [FAQ](faq).
+For more examples, see the [FAQ]({{ site.baseurl }}/faq/).
 
 ---
 
@@ -127,10 +128,10 @@ find . -name "claude.md" -o -name ".cursorrules" -o -name "copilot-instructions.
 
 ## Related Documentation
 
-- [Home](.) - Project overview
-- [Principle](principle) - Core definition and separation guidelines
-- [Why](why) - Reasoning and benefits
-- [Manifesto](manifesto) - Philosophical foundation
-- [FAQ](faq) - Common questions and answers
+- [Home]({{ site.baseurl }}/) - Project overview
+- [Principle]({{ site.baseurl }}/principle/) - Core definition and separation guidelines
+- [Why]({{ site.baseurl }}/why/) - Reasoning and benefits
+- [Manifesto]({{ site.baseurl }}/manifesto/) - Philosophical foundation
+- [FAQ]({{ site.baseurl }}/faq/) - Common questions and answers
 
 **GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)
