@@ -6,20 +6,19 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header>
     <nav>
       <div class="nav-container">
-        <a href="{{ '/' | relative_url }}" class="nav-brand">AI-Agnostic Principle</a>
+        <a href="{{ '/' | relative_url }}" class="nav-brand">AI-Agnostic</a>
         <ul class="nav-links">
           <li><a href="{{ '/principle' | relative_url }}">Principle</a></li>
           <li><a href="{{ '/why' | relative_url }}">Why</a></li>
           <li><a href="{{ '/manifesto' | relative_url }}">Manifesto</a></li>
           <li><a href="{{ '/faq' | relative_url }}">FAQ</a></li>
           <li><a href="{{ '/adoption' | relative_url }}">Adoption</a></li>
-          <li><a href="https://github.com/mshafiey/AI-Agnostic" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://github.com/mshafiey/AI-Agnostic" target="_blank">GitHub</a></li>
         </ul>
       </div>
     </nav>
@@ -34,7 +33,7 @@
   <footer>
     <div class="footer-container">
       <div class="footer-section">
-        <h4>The AI-Agnostic Principle</h4>
+        <h4>AI-Agnostic Principle</h4>
         <p>A principle for separating software from the artificial intelligence used to create it.</p>
       </div>
       <div class="footer-section">
@@ -63,12 +62,12 @@
   <style>
     /* Navigation */
     nav {
-      background: #2c3e50;
+      background-color: #0d1117;
+      border-bottom: 1px solid #30363d;
       padding: 1rem 0;
       position: sticky;
       top: 0;
       z-index: 1000;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
     
     .nav-container {
@@ -81,9 +80,9 @@
     }
     
     .nav-brand {
-      color: white;
-      font-size: 1.2rem;
-      font-weight: bold;
+      color: #e6edf3;
+      font-size: 1rem;
+      font-weight: 600;
       text-decoration: none;
     }
     
@@ -96,29 +95,29 @@
     }
     
     .nav-links a {
-      color: white;
+      color: #8b949e;
       text-decoration: none;
-      opacity: 0.9;
-      transition: opacity 0.3s ease;
+      font-size: 0.875rem;
+      transition: color 0.2s ease;
     }
     
     .nav-links a:hover {
-      opacity: 1;
+      color: #e6edf3;
     }
     
     /* Container */
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 2rem 1rem;
+      padding: 0 1rem;
     }
     
     /* Footer */
     footer {
-      background: #2c3e50;
-      color: white;
-      padding: 3rem 0 1rem;
-      margin-top: 3rem;
+      background-color: #0d1117;
+      border-top: 1px solid #30363d;
+      padding: 3rem 0 1.5rem;
+      margin-top: 4rem;
     }
     
     .footer-container {
@@ -126,15 +125,22 @@
       margin: 0 auto;
       padding: 0 1rem;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 2rem;
     }
     
     .footer-section h4 {
       margin-top: 0;
-      color: white;
-      border-bottom: 2px solid #3498db;
-      padding-bottom: 0.5rem;
+      color: #e6edf3;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    
+    .footer-section p {
+      color: #8b949e;
+      font-size: 0.875rem;
+      margin: 0;
     }
     
     .footer-section ul {
@@ -147,21 +153,27 @@
     }
     
     .footer-section a {
-      color: white;
-      opacity: 0.8;
-      transition: opacity 0.3s ease;
+      color: #8b949e;
+      font-size: 0.875rem;
+      text-decoration: none;
+      transition: color 0.2s ease;
     }
     
     .footer-section a:hover {
-      opacity: 1;
+      color: #e6edf3;
     }
     
     .footer-bottom {
       text-align: center;
-      padding-top: 2rem;
-      margin-top: 2rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-      opacity: 0.8;
+      padding-top: 1.5rem;
+      margin-top: 1.5rem;
+      border-top: 1px solid #30363d;
+    }
+    
+    .footer-bottom p {
+      color: #8b949e;
+      font-size: 0.75rem;
+      margin: 0;
     }
     
     /* Responsive Navigation */

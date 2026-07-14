@@ -1,258 +1,363 @@
-/* AI-Agnostic Principle - Custom Styles */
+/* AI-Agnostic Principle - Modern Clean Design */
 
 :root {
-  --primary-color: #2c3e50;
-  --secondary-color: #3498db;
-  --accent-color: #e74c3c;
-  --text-color: #333;
-  --light-bg: #f8f9fa;
-  --border-color: #dee2e6;
-  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  --bg-color: #0d1117;
+  --surface-color: #161b22;
+  --border-color: #30363d;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --accent-color: #58a6ff;
+  --success-color: #3fb950;
+  --warning-color: #d29922;
+  --error-color: #f85149;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  line-height: 1.6;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 3rem 1rem;
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  color: white;
-  border-radius: 8px;
-  margin-bottom: 2rem;
+  padding: 4rem 1rem;
+  background-color: var(--surface-color);
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 3rem;
 }
 
 .hero h1 {
   font-size: 2.5rem;
+  font-weight: 600;
   margin-bottom: 1rem;
+  letter-spacing: -0.5px;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
-  opacity: 0.9;
-  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-quote {
   font-style: italic;
-  font-size: 1.1rem;
-  opacity: 0.8;
-  border-left: 3px solid white;
+  color: var(--text-secondary);
+  border-left: 2px solid var(--border-color);
   padding-left: 1rem;
-  margin: 1.5rem auto;
-  max-width: 600px;
+  margin: 2rem auto;
+  max-width: 500px;
+  font-size: 0.95rem;
 }
 
 .project-links {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .project-link {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: var(--text-primary);
   text-decoration: none;
-  border-radius: 4px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: all 0.3s ease;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 
 .project-link:hover {
-  background: rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.5);
+  background-color: var(--border-color);
+  border-color: var(--text-secondary);
 }
 
 /* Overview Section */
 .overview {
   padding: 2rem;
-  background: var(--light-bg);
-  border-radius: 8px;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.overview h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.overview p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
 }
 
 .principle-definition blockquote {
-  background: white;
-  border-left: 4px solid var(--secondary-color);
+  background-color: var(--surface-color);
+  border-left: 2px solid var(--accent-color);
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 4px;
-  box-shadow: var(--shadow);
+}
+
+.principle-definition blockquote strong {
+  color: var(--accent-color);
 }
 
 /* Visual Separation Diagram */
 .visual-separation {
   padding: 2rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.visual-separation h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
 }
 
 .diagram {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 800px;
-  margin: 1.5rem auto;
+  max-width: 700px;
+  margin: 2rem auto;
 }
 
 .repository-box,
 .environment-box {
-  border: 2px solid var(--primary-color);
-  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
   padding: 1.5rem;
-  background: var(--light-bg);
+  background-color: var(--surface-color);
 }
 
 .repository-box h3,
 .environment-box h3 {
-  color: var(--primary-color);
-  margin-top: 0;
-  border-bottom: 2px solid var(--secondary-color);
-  padding-bottom: 0.5rem;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.repository-box ul,
+.environment-box ul {
+  list-style: none;
+}
+
+.repository-box li,
+.environment-box li {
+  color: var(--text-secondary);
+  padding: 0.3rem 0;
+  font-size: 0.875rem;
 }
 
 .arrow {
   text-align: center;
-  padding: 1rem;
-  font-weight: bold;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   color: var(--accent-color);
-  font-size: 1.1rem;
-  border-left: 3px solid var(--accent-color);
-  margin: 0 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* Exception Section */
 .exception {
   padding: 2rem;
-  background: var(--light-bg);
-  border-radius: 8px;
-  margin-bottom: 2rem;
-  border-left: 4px solid var(--accent-color);
+  margin-bottom: 3rem;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+}
+
+.exception h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.exception p {
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.exception strong {
+  color: var(--text-primary);
 }
 
 /* Documentation Grid */
 .documentation {
   padding: 2rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.documentation h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
 }
 
 .doc-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
 }
 
 .doc-card {
   display: block;
-  padding: 1.5rem;
-  background: var(--light-bg);
-  border-radius: 8px;
+  padding: 1.25rem;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
   text-decoration: none;
-  color: var(--text-color);
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
+  transition: all 0.2s ease;
 }
 
 .doc-card:hover {
-  border-color: var(--secondary-color);
-  transform: translateY(-3px);
-  box-shadow: var(--shadow);
+  border-color: var(--text-secondary);
 }
 
 .doc-card h3 {
-  color: var(--secondary-color);
-  margin-top: 0;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.doc-card p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin: 0;
 }
 
 /* CTA Section */
 .cta {
   text-align: center;
   padding: 2rem;
-  background: var(--primary-color);
-  color: white;
-  border-radius: 8px;
-  margin-bottom: 2rem;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  margin-bottom: 3rem;
+}
+
+.cta h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.cta p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
 }
 
 .cta-button {
   display: inline-block;
-  padding: 1rem 2rem;
-  background: var(--secondary-color);
-  color: white;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: var(--bg-color);
   text-decoration: none;
-  border-radius: 4px;
-  font-weight: bold;
-  transition: background 0.3s ease;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
 }
 
 .cta-button:hover {
-  background: var(--accent-color);
+  opacity: 0.9;
 }
 
 /* GitHub Section */
 .github {
   text-align: center;
   padding: 2rem;
-  background: var(--light-bg);
-  border-radius: 8px;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.github h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.github p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
 }
 
 .github-button {
   display: inline-block;
-  padding: 1rem 2rem;
-  background: #333;
-  color: white;
+  padding: 0.5rem 1rem;
+  background-color: var(--surface-color);
+  color: var(--text-primary);
   text-decoration: none;
-  border-radius: 4px;
-  font-weight: bold;
-  transition: background 0.3s ease;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 
 .github-button:hover {
-  background: #555;
+  background-color: var(--border-color);
 }
 
 /* Page Header */
 .page-header {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  color: white;
-  padding: 2rem;
-  border-radius: 8px;
-  margin-bottom: 2rem;
+  background-color: var(--surface-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 3rem 1rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
 .page-header h1 {
   margin: 0;
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .page-header p {
-  margin: 0.5rem 0 0;
-  opacity: 0.9;
+  margin: 0.75rem 0 0;
+  color: var(--text-secondary);
 }
 
 /* Content Sections */
 .content {
   padding: 2rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
+  max-width: 800px;
+  margin: 0 auto 3rem;
 }
 
 .content h2 {
-  color: var(--primary-color);
-  border-bottom: 2px solid var(--secondary-color);
-  padding-bottom: 0.5rem;
-  margin-top: 2rem;
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 0.75rem;
+  margin: 2.5rem 0 1rem;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .content h2:first-child {
@@ -260,59 +365,81 @@
 }
 
 .content h3 {
-  color: var(--secondary-color);
-  margin-top: 1.5rem;
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 2rem 0 0.75rem;
+}
+
+.content p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.content strong {
+  color: var(--text-primary);
 }
 
 /* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0;
-  background: white;
-  border-radius: 8px;
+  margin: 1.5rem 0;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
   overflow: hidden;
-  box-shadow: var(--shadow);
 }
 
 th, td {
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   text-align: left;
   border-bottom: 1px solid var(--border-color);
 }
 
 th {
-  background: var(--primary-color);
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 0.875rem;
 }
 
-tr:hover {
-  background: var(--light-bg);
+td {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+tr:last-child td {
+  border-bottom: none;
 }
 
 /* Lists */
 ul, ol {
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
+  color: var(--text-secondary);
 }
 
 /* Code Blocks */
 pre {
-  background: var(--light-bg);
+  background-color: var(--surface-color);
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: 6px;
   overflow-x: auto;
   border: 1px solid var(--border-color);
+  margin: 1rem 0;
 }
 
 code {
-  background: var(--light-bg);
+  background-color: var(--surface-color);
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, Consolas, monospace;
+  color: var(--text-primary);
 }
 
 pre code {
@@ -332,8 +459,19 @@ pre code {
 }
 
 .faq-item h3 {
-  color: var(--primary-color);
-  margin-top: 0;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.faq-item p {
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.faq-item strong {
+  color: var(--text-primary);
 }
 
 /* Checklist */
@@ -352,13 +490,18 @@ pre code {
   content: "☐";
   position: absolute;
   left: 0;
-  color: var(--secondary-color);
+  color: var(--text-secondary);
 }
 
 /* Manifesto Styling */
 .manifesto {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+.manifesto p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
 }
 
 .manifesto-section {
@@ -366,21 +509,31 @@ pre code {
 }
 
 .manifesto-divider {
-  width: 50%;
-  height: 2px;
-  background: var(--secondary-color);
+  width: 40px;
+  height: 1px;
+  background-color: var(--border-color);
   margin: 2rem auto;
 }
 
 /* Links */
 a {
-  color: var(--secondary-color);
+  color: var(--accent-color);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: var(--accent-color);
+  color: var(--text-primary);
+}
+
+/* Back to Home Link */
+[Back to Home] {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+[Back to Home]:hover {
+  color: var(--text-primary);
 }
 
 /* Responsive Design */
@@ -398,22 +551,34 @@ a:hover {
   }
   
   .arrow {
-    margin: 1rem 0;
-    border-left: none;
-    border-top: 3px solid var(--accent-color);
+    margin: 0.5rem 0;
+  }
+  
+  .project-links {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 /* Print Styles */
 @media print {
-  .hero,
-  .cta,
-  .github {
-    background: white;
+  body {
+    background-color: white;
     color: black;
   }
   
-  .doc-card {
-    border: 1px solid #ccc;
+  .hero,
+  .page-header,
+  .cta,
+  .github {
+    background-color: white;
+    border-color: #ccc;
+  }
+  
+  .doc-card,
+  .repository-box,
+  .environment-box {
+    background-color: white;
+    border-color: #ccc;
   }
 }
