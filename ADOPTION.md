@@ -1,3 +1,8 @@
+---
+layout: default
+title: Adoption Guide
+---
+
 # Adopting the AI-Agnostic Principle
 
 ## Quick Start

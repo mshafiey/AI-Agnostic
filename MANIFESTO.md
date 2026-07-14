@@ -1,3 +1,8 @@
+---
+layout: default
+title: The Manifesto
+---
+
 # The AI-Agnostic Principle Manifesto
 
 Software has always separated products from tools.

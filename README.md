@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # The AI-Agnostic Principle
 
 > The brain that creates software should not be permanently attached to the software it creates.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Why This Principle Exists
+---
+
 # Why This Principle Exists
 
 ## The Problem
