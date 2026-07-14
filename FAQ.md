@@ -3,7 +3,7 @@ layout: default
 title: Frequently Asked Questions
 ---
 
-[← Back to Home](index.md)
+[← Back to Home](/)
 
 # Frequently Asked Questions
 
@@ -13,7 +13,7 @@ title: Frequently Asked Questions
 
 This principle encourages AI usage. It only separates AI tools from software.
 
-For more context, see [Why This Principle Exists](WHY.md).
+For more context, see [Why This Principle Exists](why).
 
 ---
 
@@ -25,7 +25,7 @@ If AI configuration affects the final product, keep it in the repository.
 
 If it only helps developers write code, keep it outside.
 
-See the [Principle](PRINCIPLE.md) for complete separation guidelines.
+See the [Principle](principle) for complete separation guidelines.
 
 ---
 
@@ -43,7 +43,7 @@ The repository should not require one AI personality.
 
 Documentation describes the software. AI instructions describe how one person wants an AI to work.
 
-See the [Principle](PRINCIPLE.md) for what belongs where.
+See the [Principle](principle) for what belongs where.
 
 ---
 
@@ -53,7 +53,7 @@ If a prompt becomes part of the product (like a chatbot system prompt), it belon
 
 If it's a development workflow prompt, it belongs outside.
 
-See the [Adoption Guide](ADOPTION.md) for more patterns.
+See the [Adoption Guide](adoption) for more patterns.
 
 ---
 
@@ -80,16 +80,16 @@ If it helps you write code but isn't part of the product, keep it outside.
 3. Keep product-related AI config in the repository
 4. Update `.gitignore` as needed
 
-See the [Adoption Guide](ADOPTION.md) for a complete migration checklist.
+See the [Adoption Guide](adoption) for a complete migration checklist.
 
 ---
 
 ## Related Documentation
 
-- [Home](index.md) - Project overview
-- [Principle](PRINCIPLE.md) - Core definition and separation guidelines
-- [Why](WHY.md) - Reasoning and benefits
-- [Manifesto](MANIFESTO.md) - Philosophical foundation
-- [Adoption](ADOPTION.md) - Implementation guide
+- [Home](/) - Project overview
+- [Principle](principle) - Core definition and separation guidelines
+- [Why](why) - Reasoning and benefits
+- [Manifesto](manifesto) - Philosophical foundation
+- [Adoption](adoption) - Implementation guide
 
 **GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)

@@ -3,7 +3,7 @@ layout: default
 title: Why This Principle Exists
 ---
 
-[← Back to Home](index.md)
+[← Back to Home](/)
 
 # Why This Principle Exists
 
@@ -35,7 +35,7 @@ We already separate personal tools from shared products:
 
 AI assistants are development tools, not product components.
 
-See the [Principle](PRINCIPLE.md) for the complete separation guidelines.
+See the [Principle](principle) for the complete separation guidelines.
 
 ---
 
@@ -75,10 +75,10 @@ The project should survive the evolution of all agents.
 
 ## Related Documentation
 
-- [Home](index.md) - Project overview
-- [Principle](PRINCIPLE.md) - Core definition and separation guidelines
-- [Manifesto](MANIFESTO.md) - Philosophical foundation
-- [FAQ](FAQ.md) - Common questions and answers
-- [Adoption](ADOPTION.md) - Implementation guide
+- [Home](/) - Project overview
+- [Principle](principle) - Core definition and separation guidelines
+- [Manifesto](manifesto) - Philosophical foundation
+- [FAQ](faq) - Common questions and answers
+- [Adoption](adoption) - Implementation guide
 
 **GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)

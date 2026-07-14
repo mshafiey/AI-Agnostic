@@ -3,7 +3,7 @@ layout: default
 title: The Principle
 ---
 
-[← Back to Home](index.md)
+[← Back to Home](/)
 
 # The AI-Agnostic Principle
 
@@ -11,7 +11,7 @@ title: The Principle
 
 > AI development configurations, instructions, memories, and workflows belong to the developer environment, not the software repository, unless they directly define the behavior of the software itself.
 
-For more context, see [Why This Principle Exists](WHY.md) and the [Manifesto](MANIFESTO.md).
+For more context, see [Why This Principle Exists](why) and the [Manifesto](manifesto).
 
 ---
 
@@ -76,16 +76,16 @@ A chatbot application requires a system prompt → that prompt is software.
 
 A developer's Claude workflow is not software.
 
-For more examples and clarification, see the [FAQ](FAQ.md).
+For more examples and clarification, see the [FAQ](faq).
 
 ---
 
 ## Related Documentation
 
-- [Home](index.md) - Project overview
-- [Why](WHY.md) - The reasoning behind this principle
-- [Manifesto](MANIFESTO.md) - Philosophical foundation
-- [FAQ](FAQ.md) - Common questions and answers
-- [Adoption](ADOPTION.md) - Implementation guide
+- [Home](/) - Project overview
+- [Why](why) - The reasoning behind this principle
+- [Manifesto](manifesto) - Philosophical foundation
+- [FAQ](faq) - Common questions and answers
+- [Adoption](adoption) - Implementation guide
 
 **GitHub:** [https://github.com/mshafiey/AI-Agnostic](https://github.com/mshafiey/AI-Agnostic)
