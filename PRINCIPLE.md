@@ -3,7 +3,7 @@ layout: default
 title: The Principle
 ---
 
-[← Back to Home](/)
+[← Back to Home](.)
 
 # The AI-Agnostic Principle
 
@@ -82,7 +82,7 @@ For more examples and clarification, see the [FAQ](faq).
 
 ## Related Documentation
 
-- [Home](/) - Project overview
+- [Home](.) - Project overview
 - [Why](why) - The reasoning behind this principle
 - [Manifesto](manifesto) - Philosophical foundation
 - [FAQ](faq) - Common questions and answers

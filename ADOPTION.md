@@ -3,7 +3,7 @@ layout: default
 title: Adoption Guide
 ---
 
-[← Back to Home](/)
+[← Back to Home](.)
 
 # Adopting the AI-Agnostic Principle
 
@@ -127,7 +127,7 @@ find . -name "claude.md" -o -name ".cursorrules" -o -name "copilot-instructions.
 
 ## Related Documentation
 
-- [Home](/) - Project overview
+- [Home](.) - Project overview
 - [Principle](principle) - Core definition and separation guidelines
 - [Why](why) - Reasoning and benefits
 - [Manifesto](manifesto) - Philosophical foundation

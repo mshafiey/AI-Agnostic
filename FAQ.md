@@ -3,7 +3,7 @@ layout: default
 title: Frequently Asked Questions
 ---
 
-[← Back to Home](/)
+[← Back to Home](.)
 
 # Frequently Asked Questions
 
@@ -86,7 +86,7 @@ See the [Adoption Guide](adoption) for a complete migration checklist.
 
 ## Related Documentation
 
-- [Home](/) - Project overview
+- [Home](.) - Project overview
 - [Principle](principle) - Core definition and separation guidelines
 - [Why](why) - Reasoning and benefits
 - [Manifesto](manifesto) - Philosophical foundation

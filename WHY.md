@@ -3,7 +3,7 @@ layout: default
 title: Why This Principle Exists
 ---
 
-[← Back to Home](/)
+[← Back to Home](.)
 
 # Why This Principle Exists
 
@@ -75,7 +75,7 @@ The project should survive the evolution of all agents.
 
 ## Related Documentation
 
-- [Home](/) - Project overview
+- [Home](.) - Project overview
 - [Principle](principle) - Core definition and separation guidelines
 - [Manifesto](manifesto) - Philosophical foundation
 - [FAQ](faq) - Common questions and answers

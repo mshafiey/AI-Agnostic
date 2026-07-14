@@ -3,7 +3,7 @@ layout: default
 title: The Manifesto
 ---
 
-[← Back to Home](/)
+[← Back to Home](.)
 
 # The AI-Agnostic Principle Manifesto
 
@@ -39,7 +39,7 @@ The future of software development belongs to teams where humans and AI collabor
 
 ## Related Documentation
 
-- [Home](/) - Project overview
+- [Home](.) - Project overview
 - [Principle](principle) - Core definition and separation guidelines
 - [Why](why) - Reasoning and benefits
 - [FAQ](faq) - Common questions and answers
